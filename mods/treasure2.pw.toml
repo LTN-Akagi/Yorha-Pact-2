@@ -1,0 +1,13 @@
+name = "Treasure2"
+filename = "Treasure2-mc1.18.2-f40.1.80-3.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd95912d762b4363c45e9939e3f759b0238bbb4e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4666207
+project-id = 289760

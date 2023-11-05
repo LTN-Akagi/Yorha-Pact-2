@@ -1,0 +1,1601 @@
+{
+	id: "7DAB0A0177CC483A"
+	group: ""
+	order_index: 4
+	filename: "the_story"
+	title: "The Story"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -17.0d
+		y: -5.5d
+		width: 20.0d
+		height: 20.0d
+		rotation: 0.0d
+		image: "packmenu:textures/gui/background.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -21.5d
+			y: -9.5d
+			subtitle: "Chapter 1: The Beginning"
+			description: [
+				""
+				"{image:packmenu:textures/gui/cryo.png width:200 height:200 align:1}"
+				"You wake up, Cold and memory foggy, You look around and see you are in some kind of capsule. you vaguely remember some kind of emergency. the front of the capsule opens suddenly, as you step out and look around you see your in some kind of large cavern with many rows of other capsules. you take a closer look at one and all you see inside are bones, you then realize the only source of light in this cavern is the lights glowing from the capsule you left, all the other capsules are dark. you see further down that it looks like the ceiling had collaped on one side, crushing several more capsules. as you look around you see a staircase leading up to a door. as you climb the stairs you feel them shake, they are barely holding together. as you reach the top and open the door they begin to colapse. you barely make it through the door as they fall away behind you. in this room you see lockers along one wall, in here the ceiling appears to have fallen ontop of them and you are unable to open any of them except one. inside you find a survival pack with some gear and rations. Suddenly the ground starts shaking and a wall near by falls as dose the ceiling, you quicky run out through the hole in the wall as the rest of the area falls into nothing but a pile or rocks. You now realize theres no going back and you have no way to try and get back in. you look around and all you see is wilderness, you see what looks like a path, with hopes of finding someone else who might be able to help you you follow the path, after several hours you see some buildings in the distance, as you get closer you see they appear to be houses and some people moving around, you begin to move closer........."
+			]
+			id: "3711EC73C4F12C86"
+			tasks: [{
+				id: "3AD7EE86A5B39559"
+				type: "checkmark"
+				title: "Start the Story"
+			}]
+			rewards: [
+				{
+					id: "08345508765A4CE3"
+					type: "item"
+					item: "croptopia:trail_mix"
+					count: 4
+				}
+				{
+					id: "5E10359C64DFDAA4"
+					type: "toast"
+					title: "Every journey starts with the first step"
+					icon: "minecraft:spruce_sign"
+					description: "Every journey starts with the first step"
+				}
+			]
+		}
+		{
+			title: "Survival basics"
+			x: -20.0d
+			y: -9.5d
+			subtitle: "Survival Basics"
+			description: ["After getting to the houses, you start calling out to the people you saw, the closer you got though the more you start to realize something isnt quite right. These \"people\" are not human, and while they dont seem to mind your presence, they also dont really seem to notice you either. They dont seem to speak your language at all and comunicating at this time seems impossible, your going to have to figure out a way to survive, to begin with youll need some materials to work with. wood seems the simplest to start with."]
+			dependencies: ["3711EC73C4F12C86"]
+			id: "6306DAD2058C4EFD"
+			tasks: [{
+				id: "2D0FF1283AA7BF0D"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8L
+				match_nbt: false
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "5C11BAB7349517D1"
+					type: "item"
+					item: "croptopia:beef_jerky"
+					count: 4
+				}
+				{
+					id: "0EB46CAC036CC519"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -9.5d
+			subtitle: "A start"
+			description: ["Now that youve gathered wood, its time to make a few tools. with a Pick Axe youll be able to cut through stone to get at other materials"]
+			dependencies: ["6306DAD2058C4EFD"]
+			id: "23349A625727FA31"
+			tasks: [{
+				id: "73343A2ED99E571D"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "110BF859C8B9D703"
+					type: "item"
+					item: "croptopia:raisins"
+					count: 4
+				}
+				{
+					id: "5DFFA214CBB41C8A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Stone cold Upgrade"
+			x: -17.0d
+			y: -9.5d
+			subtitle: "Make some stone tools"
+			description: ["After gathering some wood and managing to find a little food, the tools you made will work for now but you know you need to make better tools, there looks to be plenty of stone around, perhaps you can make better tools out of stone, it is stronger than wood after all"]
+			dependencies: ["23349A625727FA31"]
+			id: "7AC368CB72D616CC"
+			tasks: [{
+				id: "6BC563B3DE37284E"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "180314836661E22D"
+					type: "item"
+					item: "croptopia:peach"
+					count: 4
+				}
+				{
+					id: "391645FFEDA06CB4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "A hunting we will go"
+			x: -15.5d
+			y: -9.5d
+			subtitle: "Kill a cow"
+			description: ["After making some new tools your stomach starts to growl, youve been able to find some fruits and vegetables but its not enough, the \"Villagers\" as youve decided to call them seem to be happy just farming but you need more variety. Youve seen some cows in the area, your sure with this new stone sword that you can catch and butcher one"]
+			dependencies: ["7AC368CB72D616CC"]
+			id: "1354F972D24079CA"
+			tasks: [{
+				id: "5E34C5605ED25C13"
+				type: "kill"
+				entity: "minecraft:cow"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "01337BFEBCD94219"
+					type: "item"
+					item: "farmersdelight:hamburger"
+					count: 2
+				}
+				{
+					id: "66DFBE9ABA2E97D8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Mining"
+			x: -14.0d
+			y: -9.5d
+			subtitle: "Make some torches and mine some iron"
+			description: ["After killing those cows with a stone sword you notice that it was more difficult than you thought it would be, the sword just isnt sharp enough and you can already see cracks forming. You need to find better materials, maybe you can find some iron, you might have a easier time in caves, either way its likely to get dark. Might want to take some torches along"]
+			dependencies: ["1354F972D24079CA"]
+			id: "5DC1824A4106C5F2"
+			tasks: [
+				{
+					id: "4DCC1FD35C35BBE2"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8L
+				}
+				{
+					id: "6FD6EF076D339649"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "74F8992A40107F33"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+					count: 2
+				}
+				{
+					id: "66A76CC7259B5141"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Better Tools!!"
+			x: -12.5d
+			y: -9.5d
+			subtitle: "Make some iron tools"
+			description: ["After you come back from mining you drop your ore on the ground, thinking to your self \"ok, now what?\". some of the villagers approach your, they give you some baked goods with big smiles and scurry away, one of them stays and looks at the pile of ore then at you, then he draws in the dirt a box looking structure, then points to the cobble stone you have and then the coal and then the iron, you think you understand, make a Furnace of sorts out of the cobble stone and use it to smelt your iron. You smile at the villager and it scurries away"]
+			dependencies: ["5DC1824A4106C5F2"]
+			id: "0BA68FE0851A4F99"
+			tasks: [
+				{
+					id: "7E6DF06A600C8316"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20F8F3DC9309C7CC"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04910C64665840F8"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B22DCD4FA325D0E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "33C395543FA8C1F0"
+					type: "item"
+					item: {
+						id: "pamhc2foodextended:cottagepieitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "42713101CFB565BC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+			]
+		}
+		{
+			title: "Predation"
+			x: -21.5d
+			y: -8.0d
+			subtitle: "Protect the Villagers and kill some Zombies"
+			description: ["After making your new tools using iron you notice its getting dark, you see some villagers running and screaming, you look to the direction they are running from and see an awful sight. Youre not entirely sure what they are, but they almost look human but with green skin and hollow looking eyes, they are moaning and shambling towards the villagers, you cant just sit and do nothing, the villagers have been nothing but nice to you"]
+			dependencies: ["0BA68FE0851A4F99"]
+			id: "4265EEA6D7879E1B"
+			tasks: [{
+				id: "6E0A8B9671E4B4CF"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "77D686E1DBB016D7"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "475E0E27B8BF58EB"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D12731CE7CC3654"
+					type: "item"
+					item: "croptopia:fried_chicken"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Chapter 2: The real journey begins"
+			x: -20.0d
+			y: -8.0d
+			subtitle: "Make some better protection"
+			description: ["After you defeat the last of the \"Zombies\"? You hear the villagers cheering, as you walk back into the village several of them great you with gifts, some leather boots and a cap, one of the older looking ones hands you a small tattered book, then they all scurry away as normal. You look at the book, it looks old and worn and missing pages, you begin to read.  \"today the scientists and magi seem to be very excited about a new discovery, it seems that an artifact from another realm was successfully combined with a material from a totally different realm, I was able to see the artifact and it looked like some kind of eye, I remember seeing a drawing of something similar in an ancient book. I will have to see if I can find this book\" you set the book down and sit, for the first time since you woke up your reminded that you have not seen any other humans, just these villagers that youre not even sure are human at all, and \"zombies\" they looked more human but where desiccated husks if anything, the thought that they may actually be the living dead sends shivers down your spine, there must be more survivors somewhere, there must be ruins of the civilization you came from, how long has it been since the emergency that sent you and every one you knew to the shelters. After your battle with those \"zombies\" though made you think it was close a few times they actually hurt you, if your going to search for more answers youll need better protection, perhaps you can make armor out of some iron"]
+			dependencies: ["4265EEA6D7879E1B"]
+			id: "23A8D528F00127B3"
+			tasks: [
+				{
+					id: "799B6277E7CDF6D3"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "032BCAFC1B49B2FB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7E596DD35848AA73"
+					type: "item"
+					item: "minecraft:mushroom_stew"
+					count: 2
+				}
+				{
+					id: "6113FFFF2B8FE9F5"
+					type: "item"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				}
+			]
+		}
+		{
+			title: "Finding more info"
+			x: -18.5d
+			y: -8.0d
+			subtitle: "Kill some Zombies to find out more about them"
+			description: ["While mining for more iron to make the armor you took periodic breaks to look through the book, \"I found the book I saw the artifact in, its a hard book to translate but it seems both materials come from different dimensions, we have never been to another dimension, and the magi are convinced that the materials to make more of these artifacts could be found in our world though very rarely, they believe the artifacts are the key to opening a portal to another dimension, they believe it would benefit our world greatly to learn how to harness the resources of that world. Ive urged them that we should consider this book and proceed with caution, but they just tell me that its an old book without dated knowledge, and they have it under control. the book is torn here and missing the rest of the pages, you want to know more but it seems for now youll have to wait. You decide you want to find out more about these \"zombies\" in the meantime"]
+			dependencies: ["23A8D528F00127B3"]
+			id: "4EA92554DE52163C"
+			tasks: [{
+				id: "148695A217486318"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "00E83FE6DE03DE99"
+					type: "item"
+					item: {
+						id: "doom:pistol"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "599D587CE64A96D9"
+					type: "item"
+					item: {
+						id: "simpledivegear:divehelmetlighted"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:respiration"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Unsettling truth"
+			x: -17.0d
+			y: -8.0d
+			subtitle: "Make a better weapon"
+			description: ["You sit staring at the corpse of a zombie, theres no doubt about it anymore, these where in fact people at one point, you found a gun and ammo on one of them with a badge. You cant even begin to imagine how this is possible, but worse you have found more monstrous creatures as well, skeletons, giant spiders, witches. you decide that if your going to have any chance of exploring much further your going to need better equipment. and your going to need to find more info about what happened"]
+			dependencies: ["4EA92554DE52163C"]
+			id: "33720F4273DD7CE3"
+			tasks: [{
+				id: "62E98EDB8A6D77C1"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C4A3F6DED780B96"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "03108695CEDAC79F"
+					type: "item"
+					item: "doom:bullets"
+					count: 2
+				}
+				{
+					id: "0CE20321DB9E2615"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "More mining"
+			x: -15.5d
+			y: -8.0d
+			subtitle: "Make a diamond suit"
+			description: ["after days of mining to make a sword you realize that using diamonds is no easy task, but you will persevere and make a armor set"]
+			dependencies: ["33720F4273DD7CE3"]
+			id: "18B17427022E4B41"
+			tasks: [
+				{
+					id: "4B192981141B40ED"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B749370EDA9F60D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A3733516AF0F353"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23CD8406B42DC196"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1F90F650C2F38243"
+					type: "item"
+					item: "croptopia:lemonade"
+					count: 4
+				}
+				{
+					id: "600D30E2E51FE981"
+					type: "item"
+					item: "minecraft:cookie"
+					count: 5
+				}
+				{
+					id: "711DDFE23F3334BC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+			]
+		}
+		{
+			title: "Onward to explore"
+			x: -14.0d
+			y: -8.0d
+			subtitle: "Kill the undead and giant spiders"
+			description: ["Now that you have a set of diamond armor you feel your protected enough to head out, the villagers seem to understand what your doing and leave you some cookies and lemonade. Your goal is to head out and see what you can find, hopefully you can find some more info on what happened and about the world as it is now."]
+			dependencies: ["18B17427022E4B41"]
+			id: "52C515433083187B"
+			tasks: [
+				{
+					id: "4EEBF96D2831132E"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 10L
+				}
+				{
+					id: "1C28DAA01740F29B"
+					type: "item"
+					item: "minecraft:bone"
+					count: 10L
+				}
+				{
+					id: "70911C255193572A"
+					type: "item"
+					item: "minecraft:string"
+					count: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "62D1560E5B440A56"
+					type: "item"
+					item: {
+						id: "doom:shotgun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "372D022E33DB7ADB"
+					type: "item"
+					item: "doom:shotgun_shells"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -8.0d
+			subtitle: "Make a different kind of backpack"
+			description: ["After exploring a while youve come to the conclusion that you need to be able to carry more, your sure you can fashion a backpack out of leather, you also happened to find a shotgun and some ammo on one of the zombies, it seems they dont know how to use things beyond just swinging it around like a club. You also happened to find some pages that appear to come from the book you have, they read \"The scientists and magi are playing with dangerous powers, they have figured out that by making a frame using obsidian 4 blocks wide and 5 blocks tall leaving a hole in the center 2 blocks wide and 3 blocks tall then setting a fire in the hole opens a strange purple portal, after sending animals through to see what would happen they decided after one cow managed to wander back through that it must be safe for people to go through and plan to start sending teams tomorrow\" You hear something nearby and decide to put the pages away for now to read later when your in a safer place"]
+			dependencies: ["52C515433083187B"]
+			id: "6F96B7BA1C2663A1"
+			tasks: [{
+				id: "4B3BA9D640C1D6AE"
+				type: "item"
+				item: {
+					id: "travelersbackpack:standard"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0636E3A141E01DDB"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 6
+				}
+				{
+					id: "721C930960470D90"
+					type: "item"
+					item: "croptopia:popcorn"
+					count: 2
+				}
+				{
+					id: "7C8132C86630500B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Advancement in weapons"
+			x: -21.5d
+			y: -6.5d
+			subtitle: "Build a gun crafter and Bow"
+			description: ["After making it back to the village and looking at your inventory you realize that the fire arms youve found so far work well for taking things out at range, but ammo is scarce, your lucky to have found what little ammo you have. You decide that making your own ammo would be great, you also decide after seeing that skeletons favor the bow and arrow and use them to great proficiency, that you should make your own."]
+			dependencies: ["6F96B7BA1C2663A1"]
+			id: "4A6DAE86823957CB"
+			tasks: [
+				{
+					id: "64E9F8A82214EA20"
+					type: "item"
+					item: "doom:gun_table"
+				}
+				{
+					id: "230CE07ED7D98FF8"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "44511F525C27CE7E"
+					type: "item"
+					item: {
+						id: "supplementaries:quiver"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 6
+								Items: [ ]
+								SelectedSlot: 0
+							}
+						}
+					}
+				}
+				{
+					id: "0C9CCBDEAEE07C13"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Prepping for the unkown"
+			x: -20.0d
+			y: -6.5d
+			subtitle: "Make a diamond pickaxe"
+			description: ["After making more ammo and a new bow you read the rest of the pages you found, \"The scientists decided that multiple teams of people should enter the portal today, only one team has returned so far and reports that the world on the other side of the portal is as close to a real hell as one could imagine, they say theres lakes of lava, creatures that are inhuman, but they did report to have seen a creature that looks to hold some of the materials they need to open the other portal. What they describe is some sort of flame elemental like creature that sounds impossible to exist, the other teams are due to come back over the next couple days and Ive been selected to be on the next team to enter the portal later today.\" thats all the rest of the pages say, you decide that maybe making your own portal might help you find more info but first you need to make a better pickax and gather some obsidian"]
+			dependencies: ["4A6DAE86823957CB"]
+			id: "1DB3CB49B33C8157"
+			tasks: [{
+				id: "6536E139EC1922ED"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "585C19EE68F849E8"
+					type: "item"
+					item: "minecraft:potato"
+					count: 5
+				}
+				{
+					id: "64B1CC23A7B82393"
+					type: "item"
+					item: "tombstone:bag_of_seeds"
+					count: 4
+				}
+				{
+					id: "44FF585C2421BEAE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Chapter 3: Portals"
+			x: -18.5d
+			y: -6.5d
+			subtitle: "Mine enough obsidian to make a portal"
+			description: ["After fashioning some tools you head out to find and mine some obsidian, you seem to remember that obsidian forms when lava is cooled fast, you know you could probably find some lava deep in some caves, so maybe you should take a bucket of water with you"]
+			dependencies: ["1DB3CB49B33C8157"]
+			id: "39CDA49F61870D79"
+			tasks: [{
+				id: "18E5014D4FBB960E"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "3B8EE535B6398546"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "425D310C3DB42477"
+					type: "item"
+					item: {
+						id: "ironjetpacks:jetpack"
+						Count: 1b
+						tag: {
+							Id: "ironjetpacks:wood"
+							Throttle: 1.0d
+						}
+					}
+				}
+				{
+					id: "36AF00FE26029FD8"
+					type: "item"
+					item: "mekanismgenerators:solar_generator"
+				}
+			]
+		}
+		{
+			title: "Entering the unkown"
+			x: -17.0d
+			y: -6.5d
+			subtitle: "Collect some local itoms from the Nether"
+			description: ["After gathering the obsidian the villagers appear to be concerned, some approach you and offer up some items, 3 bottles of some kind of liquid, a potion? and a piece of equipment that looks like a jet pack, its worn and aged, you have not seen one of these in a while but know how to use it. you wonder what they know that you dont. Now to build the portal and enter into the unknown"]
+			dependencies: ["39CDA49F61870D79"]
+			id: "7D7316AE268AA90C"
+			tasks: [
+				{
+					id: "7BE680F9E0984E6F"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 10L
+				}
+				{
+					id: "33EE8551E84AA102"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "46562CC990484D32"
+					type: "item"
+					item: "doom:invisiblesphere"
+					count: 2
+				}
+				{
+					id: "4271B3ACD9B1A1A2"
+					type: "item"
+					item: "doom:powersphere"
+				}
+				{
+					id: "79E9908ACC85E8D1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -6.5d
+			subtitle: "Hunt down some blazes"
+			description: ["Immediately after passing through the portal you see before you that this place is very much like the fabled Nether realm, you see lakes and streams of lava, there dost appear to be a sky, its hot, so hot that water instantly turns to steam when dumped on the ground. You see now why the villagers gave you the jet pack, it will be very useful for trying to explore this place but you should be careful not to fly to far over the lakes, these old jet packs can be fickle and the slightest hit can cause a malfunction that would send you into a lake of lava. That in mind you decide to look around and see if you can find evidence of any humans, maybe you could find one of those flame elementals mentioned in the pages"]
+			dependencies: ["7D7316AE268AA90C"]
+			id: "7DBF09848970579E"
+			tasks: [{
+				id: "6DAA4FD4CC1FA74F"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "14D56B1226832E4A"
+					type: "item"
+					item: "croptopia:cheese_cake"
+					count: 2
+				}
+				{
+					id: "650F2CBD89566375"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+			]
+		}
+		{
+			title: "A step closer"
+			x: -14.0d
+			y: -6.5d
+			subtitle: "Youve come across some kind of fortress, you dont know if its made by humans or something else, theres black skeletons roaming around and some of those \"fire elemental\" you decide to start calling Blaze because they set every thing on fire. After taking on and killing several of them you have found they contain strange glowing rods, you wonder if this is what was mentioned in the papers. You wander around the place a little more and find some chests containing items clearly of human origin, at last you find some more papers at the bottom of one of the chests, they appear to be more of the book you have but you dont have time to read it right now, you need to make it back home. But before you do you decide to grab a few more specimens, a kind of plant and sand"
+			dependencies: ["7DBF09848970579E"]
+			id: "0F8FC9CE75052F3B"
+			tasks: [
+				{
+					id: "0C9327E1B323FD13"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "65160FAB0CFE9D39"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
+			rewards: [
+				{
+					id: "65ECF80757370D86"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "0C06EEB00F3A4666"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Brewing discovery"
+			x: -12.5d
+			y: -6.5d
+			subtitle: "Put down dome Soul sand and plant some nether wart. make some glass bottles while you wait"
+			description: ["After making it back to the village one of the villagers notice the rods you have with you and come up to take a closer look, they then draw several things into the ground, your not entirely sure but it looks like your supposed to make some kind of mixture using several items, he then points to the sand and plants and gestures that you should make a farm? "]
+			dependencies: ["0F8FC9CE75052F3B"]
+			id: "650883B7DEB6058B"
+			tasks: [{
+				id: "36954FD09C3B99CA"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "652853B3B46A50EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "46BC07FCB95BDF5F"
+					type: "item"
+					item: "croptopia:banana_cream_pie"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Brewing prep"
+			x: -21.5d
+			y: -5.0d
+			subtitle: "Make a brewing stand and gather some materials"
+			description: ["after growing some more of this nether wart and making some glass bottles its time to make the stand and look into mixtures, it looks like combining some materials will make some of the ingredients"]
+			dependencies: ["650883B7DEB6058B"]
+			id: "40E2FAD76CF398EF"
+			tasks: [
+				{
+					id: "413B48FD1C498331"
+					type: "item"
+					item: "minecraft:brewing_stand"
+				}
+				{
+					id: "431449699B80E4C8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "10488BD827DCDA75"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "7DBAD99646C0FFC1"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+				}
+				{
+					id: "403827A1EE1EA155"
+					type: "item"
+					item: "minecraft:magma_cream"
+				}
+			]
+			rewards: [
+				{
+					id: "30FD97EAC143B5C2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "46835BF9D1B314D9"
+					type: "item"
+					icon: {
+						id: "croptopia_additions:grape_soda"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					item: {
+						id: "croptopia_additions:grape_soda"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Brewing"
+			x: -20.0d
+			y: -5.0d
+			subtitle: "Brew some potions with the materials you got"
+			description: ["your ready now to start this, you place 3 bottles into the brew stand with nether wart, after some time you then can add another ingredient"]
+			dependencies: ["40E2FAD76CF398EF"]
+			id: "2623A258FA007268"
+			tasks: [
+				{
+					id: "69C6F40932E176EA"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "2A6DB1AE3DCDA086"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "7DF9508B3E56892B"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "20BD2578480099B5"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "0164F2D68615D60E"
+					type: "item"
+					item: "croptopia:baked_sweet_potato"
+					count: 4
+				}
+				{
+					id: "3FC4E7B0162514A0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Hunting for rare creatures"
+			x: -18.5d
+			y: -5.0d
+			subtitle: "Hunt down 10 endermen"
+			description: [
+				"while waiting for the potions to brew you read the new pages you found \"we explored the local area here in the Nether realm, we have seen little to no sign of the other teams, the environment here is oppressive, we found a structure after traveling quite a way, we dont know the origin of this structure, but we see from a distance that there are creatures roaming the area. We will approach later today. \" the next page appears to be after they approach. \"it was decided to try and capture one of the fire creatures, it was a complete disaster, the creatures are able to float a way off the ground it turns out, and can shoot fire balls, 3 men where set on fire and when we tried to pour water from our canteens on them the water turned to steam before landing on the victims, we could not put the flames out, and they burned to death, 2 more men didnt watch their step and in the fray fell into the lava lake below, finally to the leader of our group opened fire on the creature and killed it, i was able to retrieve some rods from it. while we where trying to decide what to do next one of the men pointed to a large floating object in the distance, we watched and realized its some sort of creature, with a screech it launched a exploding ball at us and killed another man, the leader screamed that we needed to evacuate now and to make haste back to the gate, as we ran another explosion happened behind me, i looked back in time to see the leader fall into the lava along with 2 more men, theres only 3 of us now running to get out....\" the page is ripped off there. The next page appears to be a later time \"the scientists and magi have been examining the blaze rods we managed to bring back, such a horrific price to pay, but they dont seem to be effected by it the cold-hearted monsters, they are now forming teams to search for a creature that has only existed in legend, no one knows if its alien or what, they describe it to us as a tall thin entity, they posses a pearl like object that "
+				"they want.....\" this final page is torn away at this point, perhaps you can find more while searching for these creatures"
+			]
+			dependencies: ["2623A258FA007268"]
+			id: "1A3D472978979B82"
+			tasks: [{
+				id: "507F5E6C93C1939F"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "2852BC9162E3554A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "077DB4CCE271AF09"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+			]
+		}
+		{
+			title: "Chapter 4: Mysteries"
+			x: -17.0d
+			y: -5.0d
+			subtitle: "Kill 10 Zombies and Skeletons"
+			description: ["After killing several of those Endermen you managed to get some Pearls, looking at it you can feel strange energies coming off it, your not quite sure what to do with it yet, as you approach the village you hear screams and moans, you look and see several monsters attacking the villagers, you run to save them.\","]
+			dependencies: ["1A3D472978979B82"]
+			id: "2DDB19ABFB84EB35"
+			tasks: [
+				{
+					id: "1316617E4668EA88"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 10L
+				}
+				{
+					id: "4351227915BC6ECA"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 10L
+				}
+			]
+			rewards: [{
+				id: "67968B946ADDC121"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2174545491530861461L
+			}]
+		}
+		{
+			title: "A fortunate find"
+			x: -15.5d
+			y: -5.0d
+			subtitle: "Make some ender eyes"
+			description: [
+				"After killing all the monsters, one of them dropped some papers, you cant believe your luck as you realize they are more pages from the book, you begin to read \"we have gathered several pearls from the Endermen, it was a long search for them. The scientists and magi took them and combined them with dust from the blaze rods, making more of the Eye artifacts, they pronounce that tomorrow they will use them to activate the other portal, i urge them to reconsider till more of the ancient book is translated, but they ignore me and when i protested they order the guards to kick me out of the lab and not to let me back in. \" the rest of the page is torn away, you continue to the next page \"THOSE FOOLS!!! They ignored all the warning and opened the portal!! I dont know if they where all killed or not but clearly something evil has come through the portal, theres explosions and fire coming from the strong hold and loud roaring, i fear for my safety, the government has set off the evacuation alarm and every one is running to shelters, i cannot go with them i must try to stop this...... I just saw it, flying over the city, a large black dragon destroying everything in site, it hasnt seen me yet, its dark now and Im slowly making my way to whats left of the strong hold........its been hours since the alarms went silent, theres dead people everywhere, the dragons presence seems to be having a strange effect on the area, i swear i saw some of the dead start to move......Ive made it inside the strong hold, the place is a wreck, i can see the portal, i think the dragon knows Im here its flying circles around the area, i can see the eyes lining the portal frame, Im going try and remove one of the eyes.........i got one of the eyes, it seems to tug towards the portal if i try to put it down, the dragon did not like that at all and started shooting fire balls at me, i barely managed to escape, the portal is still open but looks unstable now, Im going to grab as many of these eyes as i"
+				"can and take them through the portal with me, i hope the dragon follows me, Im leaving my book here, hopefully someone will find it and learn from this. \" after reading this you now know what happened, the living dead was a result of the dragon, you may not be able to bring back your civilization but perhaps by defeating the dragon you can rid the world of the living dead"
+			]
+			dependencies: ["2DDB19ABFB84EB35"]
+			id: "566F45FB06381F29"
+			tasks: [{
+				id: "0586F5DB3935ED1D"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "16DCCE5EA64174A6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "712765D646E087E3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+			]
+		}
+		{
+			title: "Prepping for battle"
+			x: -14.0d
+			y: -5.0d
+			subtitle: "Make an Enchanting table and enhance some of your tools and armor"
+			description: ["Youve made several ender eyes, they do seem to pull to one direction, your sure if your throw them they will help lead you to what remains of the strong hold so you can find the portal, you start to go through your items before heading out, you want to leave anything thats not necessary here, potions, food, weapons, armor and a few tools is all youll need, the jet pack may be handy, bow and arrows are a must. a villager comes up and draws in the dirt a picture, it looks like a table with a book made out of obsidian, then he points to your equipment, he clearly intends for you to do something before heading out"]
+			dependencies: ["566F45FB06381F29"]
+			id: "72BBD7C62394A8D2"
+			tasks: [{
+				id: "70BA5968981AB458"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "1F847BD0A46D019D"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+				{
+					id: "3CD4B6A6DE3097A3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "533D2D735B2F7D8B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "19E9579859282C23"
+					type: "item"
+					item: "minecraft:end_crystal"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Entering the dangerous unknown"
+			x: -12.5d
+			y: -5.0d
+			subtitle: "Find the strong hold, Enter the portal and defeat the Ender Dragon!!! {take your time, upgrade and enchant your gear, this wont be an easy fight, an enchanted bow and armor is best. A jet pack will help.) You may need ro Summon the dragon, to do this place the 4 end crystals in the center areas along the edges of the portal"
+			description: ["Youve made an enchantment table, you can use this to upgrade your gear. Its time to head out and find the strong hold and the portal"]
+			dependencies: ["72BBD7C62394A8D2"]
+			id: "7BA32884211A9DA2"
+			tasks: [{
+				id: "6014A5BDBFC2C78F"
+				type: "kill"
+				icon: {
+					id: "minecraft:dragon_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3D13738017A1E145"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "0297293735071A5C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "7C6B27B09EE67BA0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: -3.5d
+			subtitle: "Collect some local materials"
+			description: [
+				"{image:packmenu:textures/gui/background2.png width:300 height:150 align:1}"
+				"After battling aginst the dragon for what felt like hours you manage to lay a final blow to the dragon, it suddenly shot up roaring, you could hear cracks starting as bright light started shining through its wounds, an almost as suddenly as it started the dragon collapsed in on its self and vanished. for the first time since you got to this place you look around, all you see is a vast emptyness. looking around you think you can see the faint outline of a structure far in the distance. but your unable to focus on it for long as your suddenly struck with bone deep weariness, youve come so far and fought so hard. turning back you head to the structure the dragon appeared to be guarding, it looks like a portal. maybe grabing a few things from this world before heading through might be a good idea"
+			]
+			dependencies: ["7BA32884211A9DA2"]
+			id: "12568344394ACF3E"
+			tasks: [{
+				id: "034ABA8D33D99743"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 20L
+			}]
+			rewards: [
+				{
+					id: "0E550136D861E979"
+					type: "item"
+					item: {
+						id: "cyclic:charm_home"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FFED8BFC121B10B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -3.5d
+			description: ["After entering the portal, you are some how transported back to your own bed. Your not sure how that worked out exactly but its convenient and youll take it. After resting for a few days recovering from the battle youve noticed that the undead are still out there, it seems that defeating the dragon did not end that. Thinking back to what little time you spent in that world you recall the structure you thought you saw. surely theres more to that world than that one floating island of white rock. you decide you should look for more answers, you recall there being what appeared to be a library in the strong hold. perhaps the knowledge lies there."]
+			dependencies: ["12568344394ACF3E"]
+			id: "315D69E54CD70456"
+			tasks: [{
+				id: "31A3537CA1074C69"
+				type: "checkmark"
+				title: "Back home"
+			}]
+			rewards: [{
+				id: "07C8986BB05ACF22"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5019680375473571861L
+			}]
+		}
+		{
+			title: "Chapter 5: The search"
+			x: -18.5d
+			y: -3.5d
+			subtitle: "Kill 2 witches"
+			description: ["After much thinking you decide that maybe some answers are closer than you thought, youve seen some villagers wearing black pointy hats from time to time, last time you encountered one they threw stuff at you that made you sick. if they know how to make these glass bottles full of nasty stuff they use then maybe they have other knowledge as well"]
+			dependencies: ["315D69E54CD70456"]
+			id: "4E70C60768CD2A1E"
+			tasks: [{
+				id: "4EBBEF40DB657F9D"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 2L
+			}]
+			rewards: [
+				{
+					id: "774DF2AAE2AA06E4"
+					type: "item"
+					item: "croptopia:fruit_salad"
+					count: 4
+				}
+				{
+					id: "018DA47706216580"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Artificial life?"
+			x: -17.0d
+			y: -3.5d
+			subtitle: "Do you want to build a snowman?"
+			description: ["Your still recovering from your encounter with the witches, despite a peacful approach at first they threw glass bottles at you and ran off only to continue darting in and out throwing more at you. you managed to kill them and found one had a book. You attempt to read the book but its in a language you dont understand and cant even begin to read. you see some drawings though, looks like directions to build a snowman but with a pumpkin for a head?"]
+			dependencies: ["4E70C60768CD2A1E"]
+			id: "7A30F7C1BDE940AA"
+			tasks: [
+				{
+					id: "10214A675291AC9A"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "646D094941C467C9"
+					type: "item"
+					item: "minecraft:snow_block"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "367FD225FA8B2DA2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5019680375473571861L
+			}]
+		}
+		{
+			title: "Laputa"
+			x: -15.5d
+			y: -3.5d
+			subtitle: "Do you want to build a.....iron snow man? What?"
+			description: ["After you placed the pumpkin ontop of your pile of snow it suddenly started moving around on its own, you where flabergasted as it started wondering around, suddenly your startled out of your amazement by a tap on your shoulder. you turn around to see one of the villagers, hes pointing at an iron ingot you left on your crafting table and then at the snowman, some how you get the idea that your supposed to make one out of iron some how?"]
+			dependencies: ["7A30F7C1BDE940AA"]
+			id: "1DF9F8B99A7C1778"
+			tasks: [
+				{
+					id: "27CA54C1DBD9CFE3"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 4L
+				}
+				{
+					id: "7E89E559BADCAE71"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+			]
+			rewards: [{
+				id: "1BEAD3CF15C17295"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5019680375473571861L
+			}]
+		}
+		{
+			title: "Enemy encounter"
+			x: -14.0d
+			y: -3.5d
+			subtitle: "Kill 10 Pillagers"
+			description: ["you walk a little ways outside of the village to build this \"iron snowman\" incase anything goes wrong. after a while you find the right combonation of materials, iron blocks in a T shape and a pumpkin on top. for a moment you have a flash of memory of a glyph you seen somewhere of a similar shape, but the thought is interupted as the blocks transform into a creature, it looks around, notices you then starts wandering about. you watch it for a while, it seems very interested in some of the flowers near by. You suddenly hear a loud noise youve nver heard before, like a loud horn. you turn around and see smoke coming from the village and are then tossed aside roughly as the iron creature rushes towards the village. you chase behind it fearfull that it must be attacking the village but as you get closer to the houses you realize theres new villagers, but these are different some how, more pale, almost gray in color. your suddenly horrified to see the iron creature fling its arms at one and throw it, but then you see why, another one of these gray villagers strikes down a normal villager with an axe. You pull your sword and rush in, but by the time you get there all of the grey villagers have fled. You stand there feeling useless as you look at the damage and the death caused by these pillaging villagers....\"Pillagers\"? Your filled with rage. You head off into the wilderness to find those who are responsible for this."]
+			dependencies: ["1DF9F8B99A7C1778"]
+			id: "29C87E8177131C69"
+			tasks: [{
+				id: "3699003D3D97B092"
+				type: "kill"
+				entity: "minecraft:pillager"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "4A89DAC464326EFF"
+					type: "item"
+					item: "croptopia:banana_sapling"
+				}
+				{
+					id: "706E670EAE1C2703"
+					type: "item"
+					item: "croptopia:coconut_sapling"
+				}
+				{
+					id: "344565861FF59176"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "Return to the Nether"
+			x: -12.5d
+			y: -3.5d
+			subtitle: "find 3 wither skulls"
+			description: ["After killing the Pillagers that attacked the village you stand there breathing heavily looking around. most of what they dropped was useless, stone axes and almost broken cross bows. but two things stand out, a scroll and some kind of totem. examining the totem you see some similaritys to ancient ankh which was supposed to give life, your not sure what to make of it. You open the scroll, its full of glyphs you cant read, but a diagram in the center catches your attention. it looks like a structure similar to that \"iron golem\" you built except this looks to use black skulls and souls trapped in a block? you recall seeing black skeletons in that fortress in the nether, perhaps thats where you should look for these black skulls."]
+			dependencies: ["29C87E8177131C69"]
+			id: "2E504979CECC6DBF"
+			tasks: [{
+				id: "66A58FF56A6F0165"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "459C31EFD081A038"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "7D81A49409A2C5C6"
+					type: "item"
+					item: "croptopia:french_fries"
+					count: 4
+				}
+				{
+					id: "55D37360D23AF7E5"
+					type: "item"
+					item: {
+						id: "minecraft:totem_of_undying"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Unholy ground"
+			x: -21.5d
+			y: -2.0d
+			subtitle: "Collect some soul sand"
+			description: ["You barely managed to get the three skulls you needed, those black skeletons cause some kind of withering illness that seemed to sapp the life out of you, youll have to be more careful around them in the future. Looking back at the scroll youve noticed a similarity between the drawing and a kind of sand here in the nether, you should collect some"]
+			dependencies: ["2E504979CECC6DBF"]
+			id: "3D541B842B1D9F4B"
+			tasks: [{
+				id: "0499740320D6022C"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "7A1A64BF0889E58A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "4446B4AD14FC8FE6"
+					type: "item"
+					item: "croptopia:steamed_rice"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Summoning evil"
+			x: -20.0d
+			y: -2.0d
+			subtitle: "build and kill the wither boss, recommend doing this far from everything else or down deep"
+			description: ["Youve got all the materials, but you got this feeling that this will not be like the other creations youve put together. the materials radiate evil and suffering, you just cant imagine anything good coming from this. Your pretty sure this is not something you should do anywhere near the village, maybe in some far away mountain or desert, or down deep in a cave or mine."]
+			dependencies: ["3D541B842B1D9F4B"]
+			id: "646AE53BE66D1A75"
+			tasks: [{
+				id: "6886C3509F24AA10"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "331D1FBBD39FD27E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "0598115506998FC7"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "7AA39AFF928E32FF"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+			]
+		}
+		{
+			title: "Ultimate power?"
+			x: -18.5d
+			y: -2.0d
+			description: ["You where right about this thing being dangerous. After placing the last skull ontop it seemed to just hang there for a moment, as soon as you dropped your gaurd to look closer there was a blast that threw you back. it instantly started flying quicky around and shooting skulls at anything that moved, you battled it long and hard but ultimately proved to be stronger than it. it dropped a star like object, you hold it glowing in your hands and can feel it radiating power, your sure your can make something powerful with this. as your getting ready to leave you notice a partchment laying on the ground, your not sure if it also dropped or if it was already here. looking over the partchment you see its faded and hard to read, near the bottom theres a drawing of a creature standing infront of some kind of structure that looks similar to the portal to the end. you try to read some, \"the leaders have assured us that they have come up with a new plan to get us out of here, most of us are skeptical of them since the disaster that forced us to hide underground.....\" you hear some noises nearby and decide to head home where its safer to read more."]
+			dependencies: ["646AE53BE66D1A75"]
+			id: "4BAFDEE417D12510"
+			tasks: [{
+				id: "39E46FCFBC04DCEA"
+				type: "checkmark"
+				title: "You where right to think this thing would not be good. as soon as you placed the last skull on the sand there was a blast that tossed you back and the thing instantly started flying around and shooting skulls at everything. You did eventually manage to kill it and it dropped some kind of star, it glows in your hands and you can feel power radiating from it. your sure youll be able to make something powerful with this. you notice on the ground near your a parchment, it must have dropped as well. you look it over, it very faded and hard to read in some spots, there appears to be a drawing of a creature, it looks other worldly, it looks as though its standing in the middle of a town underground. you read try to read the partchment. \"our leaders have informed us that they are working on a new plan to lead us to a better place, after the disaster that killed so many and made us have to hide down here under ground alot of us are sceptical at best.....\" you hear some sounds near by and notice its starting to get dark. you decide to finish reading the partchment later when your in a safer location."
+			}]
+			rewards: [
+				{
+					id: "03B35A74C6FAB91A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "255AD723ADF10217"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			title: "The Deep Dark"
+			x: -17.0d
+			y: -2.0d
+			subtitle: "Find and kill a Warden"
+			description: ["After returning home your able to read the rest of the partchment, \"....the leaders have had all of us help build a new portal, its different than any thing we have seen before, when it activated a creature stepped out, every one was still and quiet staring in anticipation, the leaders had assured us that the world beyond the portal would be a better place for us and that we would no longer need to hide deep underground from the evil creatures above. finally after several breathless minutes one of the leaders spoke words of welcoming to the creature, suddenly the room went dark and the creature charged at the leader, everyone started to panic and ran in all directions. i made it to a house with a good view outside and watched in horror for hours as this creature hunted down anything that made sound. it seemed to ignore people as long as they stayed quiet. im not sure how long i can stay here though with very little food and no equipment, we are all split up and i cant communicate with anyone without drawing its attention....IF there is any one left. Im going to give it some time and then ill try to make it out, ill make a run for the portal calling for anyone else to make a run for it as well, surely several of us can make it through before this creature catches us.\" It sounds like these people where the survivors of the destruction caused by the release of the dragon, you decide that you must try and find this city and see if you can locate this portal, perhaps you can find your people, or whats become of them."]
+			dependencies: ["4BAFDEE417D12510"]
+			id: "0E90ADA6F11032CB"
+			tasks: [{
+				id: "40CD5979FA5EEB6F"
+				type: "kill"
+				entity: "minecraft:warden"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7D672C587A4664F8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "49453831097E399F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "752DA0E7BF868A88"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "6579FF736FFC5AE7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -2.0d
+			description: ["After defeating the Warden, you see that this city is indeed old, on one wall you see a structure that looks like the portal you saw on the partchment, though try as you might you cannot find a way to activate it, you search the city for clues and find nothing. it seems the answers you where hoping to find are lost. you slowly make your way back home, youve come as far as you can and cannot go any further on this quest for now. perhaps its time to settle down and try to build a colony, your sure you cant be the only person left on this planet, so maybe if you build it they will come."]
+			dependencies: ["0E90ADA6F11032CB"]
+			id: "0A5D85A8EA6A22C3"
+			tasks: [{
+				id: "4B3154981E6AFA87"
+				type: "checkmark"
+				title: "Answers lost"
+			}]
+			rewards: [
+				{
+					id: "5C64399820CEB13B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5019680375473571861L
+				}
+				{
+					id: "5565F0954DE6427D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2174545491530861461L
+				}
+				{
+					id: "103FAFCB229F960A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

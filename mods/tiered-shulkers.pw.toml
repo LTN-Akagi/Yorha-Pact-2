@@ -1,0 +1,13 @@
+name = "Tiered Shulker Boxes"
+filename = "tieredshulkerses-1.18.2-1.42.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "96eca151fb89c21046fb4b1aa08a1611b2ac2820"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3837764
+project-id = 614349

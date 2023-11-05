@@ -1,0 +1,13 @@
+name = "Portable-Craft"
+filename = "PortableCraft-forge-1.18.2-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4188d2496d3ae2d20c777b601c68f754fc8f75b4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3794645
+project-id = 582295

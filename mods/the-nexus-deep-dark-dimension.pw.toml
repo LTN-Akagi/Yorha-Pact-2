@@ -1,0 +1,13 @@
+name = "The Nexus (Deep Dark Dimension)"
+filename = "The Nexus - Alpha 1.5 - for Minecraft 1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e6e1ff22151e031cec3d71b2cfdbe6128715398"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3939273
+project-id = 631966

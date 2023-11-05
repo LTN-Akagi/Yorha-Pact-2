@@ -1,0 +1,298 @@
+{
+	id: "45A97CB4C21A0815"
+	order_index: 12
+	title: "Random rewards mid tier"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_block", count: 3 }
+		{ item: "minecraft:gold_block", count: 2 }
+		{ item: "minecraft:copper_block", count: 3 }
+		{ item: "minecraft:redstone_block", count: 5 }
+		{ item: "minecraft:cow_spawn_egg", count: 2 }
+		{ item: "minecraft:chicken_spawn_egg", count: 2 }
+		{ item: "minecraft:mooshroom_spawn_egg", count: 2 }
+		{ item: "minecraft:sheep_spawn_egg", count: 2 }
+		{ item: "minecraft:chicken_spawn_egg", count: 2 }
+		{ item: "minecraft:diamond", count: 3 }
+		{ item: "minecraft:emerald", count: 3 }
+		{
+			item: {
+				id: "mining_helmet:mining_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ae2:fluix_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ae2:fluix_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:spectral_arrow", count: 32 }
+		{ item: "minecraft:parrot_spawn_egg", count: 2 }
+		{ item: "reliquary:hero_medallion" }
+		{ item: "ars_nouveau:greater_experience_gem", count: 5 }
+		{ item: "minecraft:experience_bottle", count: 5 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "ensorcellation:soulbound"
+					}]
+				}
+			}
+			count: 5
+		}
+		{
+			item: {
+				id: "aquaculture:neptunium_fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:fisher" }
+		{ item: "supplementaries:rope", count: 64 }
+		{
+			item: {
+				id: "adfinders:mineral_finder"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "adfinders:metal_finder"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "adfinders:gem_finder"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			icon: {
+				id: "magnumtorch:diamond_magnum_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			item: {
+				id: "magnumtorch:diamond_magnum_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{ item: "nomowanderer:trader_rug" }
+		{ item: "mob_grinding_utils:golden_egg" }
+		{
+			item: {
+				id: "sophisticatedbackpacks:diamond_backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 108
+					upgradeSlots: 5
+					contentsUuid: [I;
+						-32559280
+						-853393078
+						-1305504182
+						966141011
+					]
+				}
+			}
+		}
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3" }
+		{ item: "sophisticatedstorage:diamond_shulker_box" }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_4" }
+		{
+			item: {
+				id: "minecraft:bundle"
+				Count: 1b
+				tag: {
+					enchant: 1b
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{ item: "ae2:cell_component_16k" }
+		{ item: "refinedstorage:16k_storage_part" }
+		{ item: "dimdungeons:block_key_charger" }
+		{ item: "ae2:silicon_press" }
+		{ item: "ae2:logic_processor_press" }
+		{ item: "ae2:engineering_processor_press" }
+		{ item: "ae2:calculation_processor_press" }
+		{ item: "mtmechs:ma_whole_item" }
+		{ item: "mtmechs:pa_whole_item" }
+		{ item: "mtmechs:ta_whole_item" }
+		{
+			item: {
+				id: "mysticalagriculture:hostile_soulium_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:passive_soulium_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ironfurnaces:diamond_furnace" }
+		{
+			item: {
+				id: "enderchests:ender_chest"
+				Count: 1b
+				tag: {
+					owner: "all"
+					code: "000"
+				}
+			}
+		}
+		{
+			item: {
+				id: "endertanks:ender_bucket"
+				Count: 1b
+				tag: {
+					owner: "all"
+					mode: "normal"
+					code: "000"
+				}
+			}
+		}
+		{
+			item: {
+				id: "enderchests:ender_bag"
+				Count: 1b
+				tag: {
+					owner: "all"
+					code: "000"
+					open: 0b
+				}
+			}
+		}
+		{ item: "tombstone:bag_of_seeds", count: 10 }
+		{ item: "allthemodium:raw_unobtainium", count: 3 }
+		{ item: "allthemodium:raw_allthemodium", count: 3 }
+		{ item: "allthemodium:raw_vibranium", count: 3 }
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_strength"
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_leaping"
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:glove_climb"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			count: 3
+		}
+		{ item: "doom:shotgun_shells", count: 10 }
+		{ item: "doom:bullets", count: 10 }
+		{ item: "doom:powersphere" }
+		{ item: "cyclic:heart", count: 2 }
+		{
+			item: {
+				id: "travelersbackpack:end"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:bat"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:wolf"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+}

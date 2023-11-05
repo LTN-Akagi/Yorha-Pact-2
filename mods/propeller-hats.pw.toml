@@ -1,0 +1,13 @@
+name = "Propeller Hats"
+filename = "propellerhats-1.18.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0eba71f88b27100b82701775f7694c5246302cc0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3592478
+project-id = 441248

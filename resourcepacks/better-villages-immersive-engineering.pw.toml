@@ -1,0 +1,13 @@
+name = "Better Villages - Immersive Engineering Compatibility"
+filename = "BetterVillage_ImmersiveEngineering_1.18.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "743b2d7a3987418cbf8c695d7293ff8ace7de413"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4500258
+project-id = 845471

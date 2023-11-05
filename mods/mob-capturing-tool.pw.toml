@@ -1,0 +1,13 @@
+name = "Mob Capturing Tool"
+filename = "MobCapturingTool-forge-1.18.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e74769efa01f646573f75e7aa7f4f1ce3516ef2c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3834440
+project-id = 630272

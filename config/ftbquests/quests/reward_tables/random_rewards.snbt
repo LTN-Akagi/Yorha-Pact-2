@@ -1,0 +1,184 @@
+{
+	id: "1E2D899A729FCB95"
+	order_index: 11
+	title: "Random rewards high tier"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "travelersbackpack:diamond"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:bookshelf"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:lapis"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:cake"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:spider"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:magma_cube"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:diamond_backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 108
+					upgradeSlots: 5
+					contentsUuid: [I;
+						1681640252
+						-500676624
+						-1857509324
+						239028484
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:netherite_backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 120
+					upgradeSlots: 7
+					contentsUuid: [I;
+						-1835587307
+						1536446387
+						-1841477242
+						1316706917
+					]
+				}
+			}
+		}
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:power_glove" }
+		{ item: "minecraft:enchanted_golden_apple", count: 5 }
+		{
+			item: {
+				id: "simplemagnets:advancedmagnet"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			icon: {
+				id: "chancecubes:chance_cube"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			item: {
+				id: "chancecubes:chance_cube"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 5
+		}
+		{ item: "doom:daisy" }
+		{
+			item: {
+				id: "doom:soulcube"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "doom:megasphere", count: 5 }
+		{ item: "ae2:controller", count: 5 }
+		{
+			item: {
+				id: "pocketstorage:psu_3"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "ironfurnaces:diamond_furnace" }
+		{ item: "artifacts:cross_necklace" }
+		{
+			item: {
+				id: "reliquary:ender_staff"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							filter: {
+								id: "minecraft:ender_pearl"
+								Count: 1b
+							}
+							amount: 0
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "reliquary:serpent_staff"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "reliquary:fertile_lily_pad" }
+		{ item: "artifacts:everlasting_beef" }
+		{
+			item: {
+				id: "cyclic:soulstone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_starvation"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:inventory_cake" }
+	]
+}

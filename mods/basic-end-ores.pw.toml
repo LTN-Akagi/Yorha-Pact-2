@@ -1,0 +1,13 @@
+name = "Basic End Ores [Forge/Fabric]"
+filename = "BasicEndOres-1.18.2-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "74fa337d87e03a7e367282df15e331bf98a01583"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3823411
+project-id = 536269

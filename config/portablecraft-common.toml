@@ -1,0 +1,47 @@
+
+[furnace_setting]
+	#熔炉速度附魔的加速百分比
+	#Range: > 0
+	enchantFurnaceSpeedLevelPercent = 720
+	#熔炉速度附魔的默认最高等级
+	#Range: > 0
+	enchantFurnaceSpeedMaxLevel = 5
+	#是否开启熔炉熔炼速度附魔
+	enchantHeatHoldRegistry = true
+
+[brewing_stand_setting]
+	#炼药台炼药速度附魔默认最高等级
+	#Range: > 0
+	enchantBrewingStandSpeedMaxLevel = 5
+	#炼药台炼药速度附魔的加速百分比
+	#Range: > 0
+	enchantBrewingStandSpeedLevelPercent = 720
+	#是否开启炼药台炼药速度附魔
+	enchantHeatHoldRegistry = true
+
+[item_setting]
+	#是否开启便携工作台
+	craft_workbench = true
+	#是否开启便携铁砧
+	craft_anvil = true
+	#是否开启便携末影箱
+	craft_enderchest = true
+	#是否开启便携附魔台
+	craft_enchantment_table = true
+	#是否开启便携箱子
+	craft_chest = true
+	#是否开启便携熔炉
+	craft_furnace = true
+	#是否开启便携炼药台
+	craft_brewing_stand = true
+	#是否开启便携烟熏炉
+	craft_smoker = true
+	#是否开启便携高炉
+	craft_blast_furnace = true
+	#是否开启便携锻造台
+	craft_smithing_table = true
+	#是否开启便携切石机
+	craft_stone_cutter = true
+	#是否开启便携祛魔编辑台
+	craft_enchantment_edit = true
+

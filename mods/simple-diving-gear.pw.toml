@@ -1,0 +1,13 @@
+name = "Simple Diving Gear"
+filename = "SimpleDivingGear-7.0.0 mc 1.18.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d1d3e76b7c10824c8a3a58089091984951f02276"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3779186
+project-id = 295373

@@ -1,0 +1,7 @@
+name = "Moreoverlays"
+filename = "moreoverlays-1.20.11-mc1.18.2.jar"
+
+[download]
+url = "https://cdn.discordapp.com/attachments/1170430882142748864/1170861314307002548/moreoverlays-1.20.11-mc1.18.2.jar?ex=655a9492"
+hash-format = "sha256"
+hash = "90b7ef1a41e627902a33e4e2ffcf55dbbb459da7795a82556f10a49c739b6f56"

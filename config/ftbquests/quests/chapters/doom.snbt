@@ -1,0 +1,1046 @@
+{
+	id: "32E531217801207D"
+	group: "22FB35B0FEF1343D"
+	order_index: 0
+	filename: "doom"
+	title: "DOOM"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 5.0d
+			y: 5.0d
+			description: [
+				"This is the crafter you will need to make the weapons and some other stuff from the DOOM mod. but you will also need Argent energy dropped by demonic mobs in the nether"
+				"You will see some guns in the crafter that are functionally the same as the ones covered below, they just look different"
+			]
+			size: 3.0d
+			id: "6169A838A277B283"
+			tasks: [{
+				id: "350FDCA3AFD292B5"
+				type: "item"
+				item: {
+					id: "doom:gun_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A539A574930962F"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "66443E3BF76E1B13"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Pistol"
+			icon: {
+				id: "doom:pistol"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 7.5d
+			subtitle: "Basic gun"
+			description: ["Basic weapon, you should be able to take out a zombie or two with this"]
+			dependencies: ["6169A838A277B283"]
+			id: "41AF81E9A22B52D2"
+			tasks: [{
+				id: "10B34FD693F3412A"
+				type: "checkmark"
+				title: "Basic gun"
+			}]
+			rewards: [
+				{
+					id: "796CC85CEB148171"
+					type: "item"
+					item: {
+						id: "doom:bullets"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "02EA000AFB8210C8"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "doom:shotgun"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 7.5d
+			subtitle: "This is my Boom stick"
+			description: [
+				"the shotgun is a powerful weapon upclose, you should be able to handle some of the tougher enemies now"
+				"the Doomed combat shotgun is functionaly the same"
+			]
+			dependencies: ["6169A838A277B283"]
+			id: "06881A8AB9E5014E"
+			tasks: [{
+				id: "4F87AE464C873F20"
+				type: "checkmark"
+				title: "Shotgun"
+			}]
+			rewards: [
+				{
+					id: "7DDB65F65CA323E6"
+					type: "item"
+					item: {
+						id: "doom:shotgun_shells"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "360DAE02DFA66EA4"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			subtitle: "Double the gun, Double the fun"
+			description: ["This double barrel shotgun delivers quite the punch, but at the cost of a slower reload speed"]
+			dependencies: ["6169A838A277B283"]
+			id: "66244B3B227DE6F6"
+			tasks: [{
+				id: "7EB7EDE6031DF558"
+				type: "item"
+				item: {
+					id: "doom:supershotgun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4850D3E1F5AA2E42"
+					type: "item"
+					item: {
+						id: "doom:shotgun_shells"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "104D91B56A0755DC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1FD39BC8A3B4B928"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			subtitle: "Make them do the Chaingun ChaCha"
+			description: [
+				"The chaingun is a very powerful weapon, able of laying waste to large groups of enemies and taking down larger enemies in short order. however it eats ammo as though it was popcorn."
+				"The Heavy Cannon is functionally the same"
+			]
+			dependencies: ["6169A838A277B283"]
+			id: "71B3A2A4CF7AA0EB"
+			tasks: [{
+				id: "5D141DCDF549E2FD"
+				type: "item"
+				item: {
+					id: "doom:chaingun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DE4714653636E68"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "1290A3D8150717F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "73F5063C97DC1F41"
+					type: "item"
+					item: {
+						id: "doom:chaingunbullets"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			subtitle: "For when a grenade absolutly positively needs to be there on time"
+			description: ["This weapon fires a explosive projectile at your target, doing large ammounts of damage to it, but also some damage to things nearby (splash damage), however you should use caution as you are also a \"thing\""]
+			dependencies: ["6169A838A277B283"]
+			id: "5F46AD6FD1E9F518"
+			tasks: [{
+				id: "11560707559168CD"
+				type: "item"
+				item: {
+					id: "doom:rocketlauncher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B3C21191C46C408"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "64E5767FF207EA11"
+					type: "item"
+					item: {
+						id: "doom:rocket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			subtitle: "Cool sci-fi bluey plasmery shooty thing"
+			description: [
+				"The plasma rifle dosnt do as much damage per hit as some guns, but makes up for that with the high rate of fire."
+				"The Doomed Plasma rifle is functionally the same"
+			]
+			dependencies: ["6169A838A277B283"]
+			id: "0D31DD17D19F6D3E"
+			tasks: [{
+				id: "20037C849B1BBCCD"
+				type: "item"
+				item: {
+					id: "doom:plasmagun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03594B40949F93BD"
+					type: "item"
+					item: {
+						id: "doom:energy_cells"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "47F0B9C73FBFA56C"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 8.5d
+			subtitle: "Thats not a cross bow, THIS is a cross bow!"
+			description: ["A truely powerful weapon for longer ranges."]
+			dependencies: ["6169A838A277B283"]
+			id: "49A8097ED6AB2160"
+			tasks: [{
+				id: "1531905D03A269D8"
+				type: "item"
+				item: {
+					id: "doom:ballista"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12B31BC5B34A92CA"
+					type: "item"
+					item: {
+						id: "doom:argent_bolt"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "0B104BA66FA77246"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 20
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 8.5d
+			subtitle: "Ultimate sniper rifle"
+			description: ["fires an exploseive bolt at a great range. "]
+			dependencies: ["6169A838A277B283"]
+			id: "426D56C1F676B28A"
+			tasks: [{
+				id: "7AC7DCB4008D7308"
+				type: "item"
+				item: {
+					id: "doom:doomed_gauss"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "349976DA22B67904"
+					type: "item"
+					item: {
+						id: "doom:argent_bolt"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "5CE02889A9087327"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 20
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 8.5d
+			subtitle: "Big \"Fun\" Gun"
+			description: ["One of the most powerful and legendary weapons of all. The BFG fires a glowing green ball that fires out rays that damage enemies in its path, once the ball hits a target or wall, it explodes doing a large ammount of splash damage in a decent sized area."]
+			dependencies: ["6169A838A277B283"]
+			id: "7E78F57D296D3D7B"
+			tasks: [{
+				id: "151761E69A886186"
+				type: "item"
+				item: {
+					id: "doom:bfg9000"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "31E81BE112F123FB"
+					type: "item"
+					item: {
+						id: "doom:bfg_cell"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "377BA155DB0C6483"
+					type: "item"
+					item: {
+						id: "doom:argent_energy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 30
+				}
+			]
+		}
+		{
+			icon: {
+				id: "doom:praetor_doom_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 3.5d
+			description: ["There are multiple sets of armor in this mod, all cosmeticly different but with the same stats"]
+			id: "21FC98E21722C21C"
+			tasks: [{
+				id: "74BAF50FE2506C98"
+				type: "checkmark"
+				title: "Praetor armor"
+			}]
+			rewards: [{
+				id: "4BF53CF658F73088"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: {
+				id: "doom:argent_energy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 3.5d
+			description: ["Argent energy is dropped by demonic mobs, most are found in the nether. This is the basic building material for most of the items in this mod."]
+			id: "2873BA68B2A62E9E"
+			tasks: [{
+				id: "735F6323D5612145"
+				type: "checkmark"
+				title: "Argent energy"
+			}]
+			rewards: [{
+				id: "0A14F2A75A6914F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "doom:argent_plate"
+			x: 4.0d
+			y: 3.5d
+			description: ["Argent Plate is another material that is used, it can be created by combining Argent energy with netherite scrap"]
+			id: "466FC43D38B1F42D"
+			tasks: [{
+				id: "38A943315EF1719D"
+				type: "checkmark"
+				title: "Argent Plate"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			description: ["Argent plates can be used to make some impressively strong tools, they all use vanilla like recipies"]
+			id: "5C054C3DE4577473"
+			tasks: [{
+				id: "4F9B270D7E676912"
+				type: "item"
+				item: {
+					id: "doom:argent_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E3A8247D17D7ECA"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			description: ["Argent plates can be used to make some impressively strong tools, they all use vanilla like recipies"]
+			id: "28443B05F277E6AF"
+			tasks: [{
+				id: "7E946308FC78E854"
+				type: "item"
+				item: {
+					id: "doom:argent_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CFD6976BE01EFE4"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			description: ["Argent plates can be used to make some impressively strong tools, they all use vanilla like recipies"]
+			id: "0945F92AB7AA6940"
+			tasks: [{
+				id: "3947D94FF8C56C39"
+				type: "item"
+				item: {
+					id: "doom:argent_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "432D6CF2073C3FFA"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			description: ["Argent plates can be used to make some impressively strong tools, they all use vanilla like recipies"]
+			id: "01787626F539E2DE"
+			tasks: [{
+				id: "6AC29162D88C82BA"
+				type: "item"
+				item: {
+					id: "doom:argent_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E51FB8E0993A2CF"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			description: ["The paxle combines the abilitys of the Pick axe, Shovel, and Axe into one tool. great survival multi tool for exploring when inventory space is tight."]
+			dependencies: [
+				"0945F92AB7AA6940"
+				"28443B05F277E6AF"
+				"5C054C3DE4577473"
+			]
+			id: "583C6AA55965642A"
+			tasks: [{
+				id: "6708BCA625A5AC01"
+				type: "item"
+				item: {
+					id: "doom:argent_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "52F5FE16B70135C5"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["The Power Sphere instantly heals the player 20 hearts"]
+			id: "4E8E8F87C4BCC247"
+			tasks: [{
+				id: "1242F7806C3859B9"
+				type: "item"
+				item: {
+					id: "doom:powersphere"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "221439E370C9572A"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: ["The Invisable Sphere turns you invisible for 1 min, might be useful for sneaking into or out of somewhere"]
+			id: "0FF913AF545860BD"
+			tasks: [{
+				id: "53F7052D6E046A6E"
+				type: "item"
+				item: {
+					id: "doom:invisiblesphere"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "755E7C5795B22BB2"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			description: ["The Imortal Sphere increases resistance to 100% for 30 sec. might be good aginst a larger fight"]
+			id: "607131852FF6207E"
+			tasks: [{
+				id: "4F913B6BD33E0B52"
+				type: "item"
+				item: {
+					id: "doom:inmortalsphere"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "741D8B47A17E0F2C"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			description: ["The Mega Sphere increases your health by 200% and resistance by 100% for 30 sec. good for dire moments in a boss fight"]
+			id: "49A406A5C40C6FF5"
+			tasks: [{
+				id: "14C8F5C407229C64"
+				type: "item"
+				item: {
+					id: "doom:megasphere"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "18668570BF6BF7C2"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["This item gives you 3x speed as long as its equiped on you"]
+			id: "14083139B109D8ED"
+			tasks: [{
+				id: "4C2135CF43955092"
+				type: "item"
+				item: {
+					id: "doom:daisy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5306791B52331E93"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			description: ["This works like a Totem of Undying"]
+			id: "7C70A90062C7DF44"
+			tasks: [{
+				id: "42A39828E13D7BF9"
+				type: "item"
+				item: {
+					id: "doom:soulcube"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09CE5F0036C4F27E"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			description: ["Jump pads are craftable and can boost you up 5 blocks"]
+			id: "779CEB7DF939E8AB"
+			tasks: [{
+				id: "27CCA1D29D8D7154"
+				type: "item"
+				item: {
+					id: "doom:jump_pad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B82EB7503CF9219"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+	]
+	quest_links: [ ]
+}

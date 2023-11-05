@@ -1,0 +1,7 @@
+name = "VillagersRespawn"
+filename = "VillagersRespawn-1.18.1-1.39.0.5.jar"
+
+[download]
+url = "https://cdn.discordapp.com/attachments/1170430882142748864/1170850780639658065/VillagersRespawn-1.18.1-1.39.0.5.jar?ex=655a8ac3"
+hash-format = "sha256"
+hash = "33c1323b1ae03bb79333e726f7aae25faadd76c1b67e306f840ba30dc2234500"

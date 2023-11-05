@@ -1,0 +1,7 @@
+name = "ExperienceBugFix"
+filename = "ExperienceBugFix-1.18-1.38.0.2.jar"
+
+[download]
+url = "https://cdn.discordapp.com/attachments/1170430882142748864/1170850780257980488/ExperienceBugFix-1.18-1.38.0.2.jar?ex=655a8ac3"
+hash-format = "sha256"
+hash = "0fadc3667e47c02f3236f74fbc29d1de24e5b330cd898e6cc2ce27e873171dfb"

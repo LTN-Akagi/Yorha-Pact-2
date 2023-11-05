@@ -1,0 +1,13 @@
+name = "Mc2Discord"
+filename = "mc2discord-forge-1.18.x-4.2.2.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "1e0ac6796fc6ede20b60f53a566354ff9f28777d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4769533
+project-id = 325235

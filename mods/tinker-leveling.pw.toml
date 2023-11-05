@@ -1,0 +1,13 @@
+name = "Tinker Leveling"
+filename = "tinkerleveling-0.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8bd07bb56f1e1f8f7c428042957b6fbd485d6d75"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4525649
+project-id = 666778
