@@ -736,6 +736,11 @@ hash = "4d05d00d15c71687581283eb3c9e590df8fea974f2eb573b62751632fd182377"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "93091b397f6ac25759b98be7034767689407bb344c464a9359642122a8b683db"
+metafile = true
+
+[[files]]
 file = "mods/mystical-agradditions.pw.toml"
 hash = "9fbd978f988ce81fb312bdc4f3057ed61767262264222279a38b82a45b16918f"
 metafile = true
