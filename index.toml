@@ -631,6 +631,11 @@ hash = "79be136bfe56867556786ec4abe2d3d7ad35d8f33070f55c42590820e698fc56"
 metafile = true
 
 [[files]]
+file = "mods/journeymap-integration.pw.toml"
+hash = "a0281aaec51e530a9b77ea1436085895b2db0521866f0a9a7d8e0040f065123b"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "5209de0e2eeccacc8f2d554681f92deb78b4c108e596c60e580d5e2a1b3f2756"
 metafile = true
@@ -803,6 +808,11 @@ metafile = true
 [[files]]
 file = "mods/one-player-sleep-1-18.pw.toml"
 hash = "28ad9b987c6b0f6a0510fe742bca2ff610dcd320c48e9cabdbb4907eebb17fd6"
+metafile = true
+
+[[files]]
+file = "mods/ore-excavation.pw.toml"
+hash = "e25f4063442a566ba062182efbbde695b64a0c51e616781daf92bbf92f9111e7"
 metafile = true
 
 [[files]]
@@ -1128,6 +1138,11 @@ metafile = true
 [[files]]
 file = "mods/treasure2.pw.toml"
 hash = "a58c9c663617a3fb97f46955dbcb22d974cb646d27fb66e055351e68dc6cd083"
+metafile = true
+
+[[files]]
+file = "mods/treechop.pw.toml"
+hash = "4b30d21879a0353e965ca3a7ae0e3ad2582e7948b6b789a8f7307761f6c804d6"
 metafile = true
 
 [[files]]
