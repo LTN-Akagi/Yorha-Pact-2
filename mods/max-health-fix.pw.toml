@@ -1,6 +1,6 @@
 name = "Max Health Fix"
 filename = "MaxHealthFix-Forge-1.18.2-5.0.4.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

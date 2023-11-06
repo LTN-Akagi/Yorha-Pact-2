@@ -1,5 +1,6 @@
 name = "Entityculling"
 filename = "entityculling-forge-1.6.1-mc1.18.2.jar"
+side = "client"
 
 [download]
 url = "https://cdn.discordapp.com/attachments/1170430882142748864/1170850779884695644/entityculling-forge-1.6.1-mc1.18.2.jar?ex=655a8ac3"

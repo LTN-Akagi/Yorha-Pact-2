@@ -106,11 +106,6 @@ hash = "329ef9cf0b519f327455d911ae2c231cc02303ec54998e85cf20833c8acbe9a5"
 metafile = true
 
 [[files]]
-file = "mods/badpackets.pw.toml"
-hash = "060665ce200da0e1ff92de80bf5e49954ce12956cc179445ae190b3be25bf3d3"
-metafile = true
-
-[[files]]
 file = "mods/balm.pw.toml"
 hash = "23c80ede3b259c1c908ace792f0b95d7c6cb2155f2fcc1b3493e569b656162c2"
 metafile = true
@@ -392,12 +387,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-collision-fps-fix.pw.toml"
-hash = "ab799aeda7413bcb31c2119de91f50833168badc173df42a8476aa7f11fc5dd3"
+hash = "a31129e9872da152b3beebfe89d19fd7113714fbc82481a04a82ca978384bda5"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "cb9e5902196d3d57a4338dee57a77254188ff3f7233e2806ba34b9700073189a"
+hash = "8b9102c8ee1dc19abe46b556fa1cb31d752036f1de3abb1dc8be2387fd85e2d4"
 metafile = true
 
 [[files]]
@@ -442,7 +437,7 @@ metafile = true
 
 [[files]]
 file = "mods/farsight.pw.toml"
-hash = "a23cd083c19f961223880ce56bc9ce8cba6532d60b012700a1ec64a443d36acf"
+hash = "b8f1ed5ec382ab2fe868bb07bcef9364f3afaf17cb72afc3051842c96089b76b"
 metafile = true
 
 [[files]]
@@ -532,7 +527,7 @@ metafile = true
 
 [[files]]
 file = "mods/health-indicator-txf.pw.toml"
-hash = "adefab9f22a8969dcbe0b087864dcbb64b66bd6ac74ff0e0deba695096f155ca"
+hash = "d15181e9f97b33a2d632e9089043d512975d46a299b381132c7b4d336f5f567b"
 metafile = true
 
 [[files]]
@@ -562,7 +557,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-hud-forge.pw.toml"
-hash = "b9d1da03e804e28442bfd8d62695868299ba6058484d4a1183ff120bd62b0e6c"
+hash = "36e80e3d95d9ce3b961125a3b169a196b4d81f93fe7def91f98a739bca496b8a"
 metafile = true
 
 [[files]]
@@ -667,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/max-health-fix.pw.toml"
-hash = "054652f03761f181e72924e5893a86dcdc47b752a108db873bd6b05c8ca361a8"
+hash = "debbade0966c3234053c5232e2508d7fc5fbd9573e96d72560de1115457422eb"
 metafile = true
 
 [[files]]
@@ -1021,6 +1016,11 @@ hash = "50cd1ec95f2f07c81d8419e3cd22f90a43811e21793fd37e52a87b9da50200ec"
 metafile = true
 
 [[files]]
+file = "mods/the-one-probe.pw.toml"
+hash = "84683e077e40da506524d05702eeca7c56bffb6c4bdefe0eb2575c79da79e531"
+metafile = true
+
+[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "8f51c31fa1375c46026a0433c0f53e71615c75d59915a0f7ee6e327edbf3b570"
 metafile = true
@@ -1138,11 +1138,6 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "01399fef27404a511bfc9b6dad93773e1847c394e86d258d4fa1f3ef9171288c"
-metafile = true
-
-[[files]]
-file = "mods/wthit-forge.pw.toml"
-hash = "732e0a3b14e047e65d1c5df70adce125173007db0d4ccc90926febf53d22fc9d"
 metafile = true
 
 [[files]]
