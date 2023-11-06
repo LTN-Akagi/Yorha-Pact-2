@@ -491,6 +491,11 @@ hash = "29b2ade4ba6df522f465f19876a1a16fea668970160a02c66b6a6a272ac9519f"
 metafile = true
 
 [[files]]
+file = "mods/ftb-essentials-forge.pw.toml"
+hash = "46c1391a797f4ef6c787eb4085a5299ba9b408a144ed578bb59a1be0cc98c0de"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "d407624e38c852ade10d8bf4de6949bc935d6d7a23079f5602986296c21ac1c6"
 metafile = true
@@ -653,6 +658,11 @@ metafile = true
 [[files]]
 file = "mods/library-ferret-forge.pw.toml"
 hash = "84b4827d806ab6282cbff32eef4011053dc78685f3df718805a50213e55b3a7f"
+metafile = true
+
+[[files]]
+file = "mods/log-begone.pw.toml"
+hash = "a11cf1237b18cf43fb3b9fc624b4e94f72832dab07ccdeb3523c7ba70ee2056d"
 metafile = true
 
 [[files]]
