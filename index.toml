@@ -16,6 +16,11 @@ hash = "6049ce25c35da23208c19374bc6870064144df1f7aabac29f0115af03c8ad9e8"
 metafile = true
 
 [[files]]
+file = "mods/akashic-tome.pw.toml"
+hash = "c55d8087b3a790472313b0e366fb016acea13dad23b4dfac869422047e7150d0"
+metafile = true
+
+[[files]]
 file = "mods/alexs-delight.pw.toml"
 hash = "dfa0f3d9b6f055a559595d30dae85d14a35550b28c92d92285eea98d83cb7652"
 metafile = true
@@ -211,6 +216,11 @@ hash = "4d5cfa79f9675b5bd2a8711d48977ad63b7d198eb46c5cc7bb165a8f909101ac"
 metafile = true
 
 [[files]]
+file = "mods/cobblefordays.pw.toml"
+hash = "46a5008339fe37282cbe0fb769b6eae8b794720dd57df1ffa9fcf204721bdedf"
+metafile = true
+
+[[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
 hash = "a976020b14b54af93fce4c3a6ee46dd63847d43c0b94ea458d04fabe1c1b8534"
 metafile = true
@@ -228,6 +238,11 @@ metafile = true
 [[files]]
 file = "mods/compressedcreativity.pw.toml"
 hash = "4ad97f20d4c230d5215e4d46608f03ce709a2e430e6d5323afe636f163159d87"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "d647c96a37237cca3668cff8e0467a411e25eb783a9ce7c7d05a414a98da986c"
 metafile = true
 
 [[files]]
@@ -456,6 +471,11 @@ hash = "b8f1ed5ec382ab2fe868bb07bcef9364f3afaf17cb72afc3051842c96089b76b"
 metafile = true
 
 [[files]]
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "1a3346fde6ccc13e64a4baceb24fd271657964b83c09a00526e55180653a9e09"
+metafile = true
+
+[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "5a857e5ab8720ccd0ec879a6812f25f273a63c2e6af04958da7bff202dd7dd7c"
 metafile = true
@@ -478,6 +498,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "a6944c6e912ec3c1293b84cbed86ea1a0dbd8f1827435cb1bf2849d37b42a0dc"
+metafile = true
+
+[[files]]
+file = "mods/flux-networks.pw.toml"
+hash = "56f04c5afb59f692b6ff25f781a74d1f61505fd72d4ef647861f07c4e6780189"
 metafile = true
 
 [[files]]
@@ -543,11 +568,6 @@ metafile = true
 [[files]]
 file = "mods/guard-villagers.pw.toml"
 hash = "2fb1be79501f182d47fae6147b2401749f69250418cff7d6220f54d5e084b1b3"
-metafile = true
-
-[[files]]
-file = "mods/health-indicator-txf.pw.toml"
-hash = "d15181e9f97b33a2d632e9089043d512975d46a299b381132c7b4d336f5f567b"
 metafile = true
 
 [[files]]
@@ -971,6 +991,11 @@ hash = "97fecd322567a954ea537e61feb6e0f848f307790d2e8a155af427c5910a4a4d"
 metafile = true
 
 [[files]]
+file = "mods/simple-backups.pw.toml"
+hash = "bcd9c86234218573019029a85928836e655e5e058c51573d6a0a4d9bfadf8f13"
+metafile = true
+
+[[files]]
 file = "mods/simple-diving-gear.pw.toml"
 hash = "183fdad09950f09f820e3bdd9a1cd23f2cfe9503fdbded9f8f1d8dcda43c6093"
 metafile = true
@@ -1153,6 +1178,11 @@ metafile = true
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
 hash = "e09307f44f904adc3bd322db090f2674f309ff9ce4854d98d067c4651629c760"
+metafile = true
+
+[[files]]
+file = "mods/vampires-need-umbrellas.pw.toml"
+hash = "150f460e800d2d4a3b9a064a69301618358d2c86ef0620d59c190766129c6860"
 metafile = true
 
 [[files]]
