@@ -231,6 +231,11 @@ hash = "4ad97f20d4c230d5215e4d46608f03ce709a2e430e6d5323afe636f163159d87"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "e4d2d558f3a44c059788554b6394c126d2993be30c8649da92fabb8fd2e4623f"
+metafile = true
+
+[[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "12ca499aff1c91c2e2ec3d094d4b9d6799bc2d2c8445827ed2ca07419f323605"
 metafile = true
@@ -573,6 +578,16 @@ metafile = true
 [[files]]
 file = "mods/inventory-pets.pw.toml"
 hash = "881647c7851225d669f411e3faaac6e523e55cd25f44fa276169f155b8d81138"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorter.pw.toml"
+hash = "8870e6276bbb8dcfdc24b4f97ba2a972df0b48b5b514d10c96c913c773f7b9b1"
+metafile = true
+
+[[files]]
+file = "mods/iris-flywheel-compat.pw.toml"
+hash = "a748377defc6b6837575eb5994445d8ab6f1b7ea5ec3bd789384354d859e33ed"
 metafile = true
 
 [[files]]
