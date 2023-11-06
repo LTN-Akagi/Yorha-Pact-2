@@ -656,11 +656,6 @@ hash = "5ddd5adcfab9d559e27bd3e847a75538d7df5092b20fb428c494d0b3d2304ffd"
 metafile = true
 
 [[files]]
-file = "mods/magnesium-extras.pw.toml"
-hash = "fe906b3f4de4fe6c7313609f5c7cc44e733cd0e82cf74b6dbce52440bc7beccc"
-metafile = true
-
-[[files]]
 file = "mods/magnum-torch-forge.pw.toml"
 hash = "3f272a55eb9c30bcef0485ee95dfa9f12e875c13fd439c81d89f61127ef13d13"
 metafile = true
