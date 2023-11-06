@@ -361,6 +361,16 @@ hash = "f993824a6a09800d23883b75a72a7b42c5988261c7830e6c88cc8d17f2d31ea1"
 metafile = true
 
 [[files]]
+file = "mods/embeddium-plus.pw.toml"
+hash = "28ddfdcf166ce97dc6de56cb3be285dd7f8582728564a502f7dff411218a9969"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "f12574594a9b17e98457029c3e6accc13f9cec8e053cc999696bddc6b6787401"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "9698d77c462cbf16a5c3db9bc3cea684b36f3a26ef9320683f38c9525c678948"
 metafile = true
@@ -893,11 +903,6 @@ metafile = true
 [[files]]
 file = "mods/retail.pw.toml"
 hash = "23ef91d4bd56f555ad9b5aec3b6b254281d425095247bcfc9eb050936fc6958a"
-metafile = true
-
-[[files]]
-file = "mods/rubidium.pw.toml"
-hash = "07820f2e9cf69d227919b049139bb03f83332d3ca2af5b4253c6e88893c47680"
 metafile = true
 
 [[files]]
