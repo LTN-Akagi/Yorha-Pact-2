@@ -717,12 +717,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreoverlays.pw.toml"
-hash = "2124a3b75b4c7e81f6ca834d28cc9effb2db22803e015a6626d5448dbb4bf23e"
-metafile = true
-
-[[files]]
-file = "mods/my-server-is-compatible.pw.toml"
-hash = "8b9af4d0f8b912ac1ec8fe7ab8291dc7384f9db13e18bf7a8eb4f054d685449f"
+hash = "4d05d00d15c71687581283eb3c9e590df8fea974f2eb573b62751632fd182377"
 metafile = true
 
 [[files]]
@@ -782,7 +777,7 @@ metafile = true
 
 [[files]]
 file = "mods/packmenu.pw.toml"
-hash = "fe416ac77d305c786097b62215c247c59fcc9b52d3098e3ce04c5d93a0dd5847"
+hash = "98a4038b71d592b7b5848fa8b22fdb44a807a6b7f28d28cb8efd9da176baa944"
 metafile = true
 
 [[files]]
@@ -1123,11 +1118,6 @@ metafile = true
 [[files]]
 file = "mods/vampirism-integrations.pw.toml"
 hash = "aa3b5446770af49e5555517eeb925d821b093dd8235ff53d08e94b8b10a91c5f"
-metafile = true
-
-[[files]]
-file = "mods/vending-machine.pw.toml"
-hash = "06dddee92813eadd550d049659bc311c2c114f63cbf9423ad019cb47be48a105"
 metafile = true
 
 [[files]]
