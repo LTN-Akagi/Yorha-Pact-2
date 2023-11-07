@@ -636,11 +636,6 @@ hash = "b5d50a2815512a7e2224173edd77f7b798c29607640f8144e4c3f122d61b40d6"
 metafile = true
 
 [[files]]
-file = "mods/itemphysic.pw.toml"
-hash = "fdb9652713b168150149b68eb84e076e5748dbbf357b4d7818a82bbe58ccb0a3"
-metafile = true
-
-[[files]]
 file = "mods/jei-integration.pw.toml"
 hash = "00ceaf843e4b50f1b0c9a9410008f485785a99b9b5e30fd5471a5e630150b4fa"
 metafile = true
@@ -731,6 +726,11 @@ hash = "40fda330c1af418b438794f2c7e65914b7cf9b735c20d5ca0495a04cde653a84"
 metafile = true
 
 [[files]]
+file = "mods/measurements.pw.toml"
+hash = "afd73e5d918f91b731d5ef4e4508d5f6d603a30fb958b10a645b8d3290126205"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-additions.pw.toml"
 hash = "5509ff135d46d354664720f02f182bda6ba8697f22b49a42a8cf02aef6112763"
 metafile = true
@@ -773,6 +773,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "93091b397f6ac25759b98be7034767689407bb344c464a9359642122a8b683db"
+metafile = true
+
+[[files]]
+file = "mods/my-server-is-compatible.pw.toml"
+hash = "8b9af4d0f8b912ac1ec8fe7ab8291dc7384f9db13e18bf7a8eb4f054d685449f"
 metafile = true
 
 [[files]]
