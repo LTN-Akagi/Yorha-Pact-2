@@ -66,8 +66,18 @@ hash = "84abec9cda0e905d2e503066a11fd6addb6b28e6604c633485993c25850b7198"
 metafile = true
 
 [[files]]
+file = "mods/applied-botanics-addon.pw.toml"
+hash = "06d3d65fc36899d70ed2263872b4504711031d63b86c9afbe7434bbebfdf32c3"
+metafile = true
+
+[[files]]
 file = "mods/applied-cooking.pw.toml"
 hash = "56bc07690051e1188ea862a5bed1ff567e1ba1853cb1f02ad8017b5c2dea3e43"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "513a68850c8b2898212234c8f73a972a133811105899e03b050d14e2ddaad2d1"
 metafile = true
 
 [[files]]
@@ -448,6 +458,11 @@ metafile = true
 [[files]]
 file = "mods/extra-utilities-reborn.pw.toml"
 hash = "18d6e7b2f72272bfb4b52d57675a9c82165a49e23b288ead8fccacf409f32fc8"
+metafile = true
+
+[[files]]
+file = "mods/extrastorage.pw.toml"
+hash = "0cce27c4798642869bf81ff7c5102cd5a454cb1b42e0a2ecdf53b555fe058df1"
 metafile = true
 
 [[files]]
@@ -836,6 +851,11 @@ hash = "28ad9b987c6b0f6a0510fe742bca2ff610dcd320c48e9cabdbb4907eebb17fd6"
 metafile = true
 
 [[files]]
+file = "mods/openblocks-elevator.pw.toml"
+hash = "9ba7ce600676fa147a460fa3ec04712943ed81c72a24774f2c2b721c113986a3"
+metafile = true
+
+[[files]]
 file = "mods/ore-excavation.pw.toml"
 hash = "e25f4063442a566ba062182efbbde695b64a0c51e616781daf92bbf92f9111e7"
 metafile = true
@@ -1173,6 +1193,11 @@ metafile = true
 [[files]]
 file = "mods/treechop.pw.toml"
 hash = "4b30d21879a0353e965ca3a7ae0e3ad2582e7948b6b789a8f7307761f6c804d6"
+metafile = true
+
+[[files]]
+file = "mods/universal-grid.pw.toml"
+hash = "14149b93f61832955f6f0813e4dc99e8d561b1e7001c2e99ae9cc3f2ae140c17"
 metafile = true
 
 [[files]]
