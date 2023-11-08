@@ -571,11 +571,6 @@ hash = "e2ecdb0eaa4c2118a320126f5993f781a302d8dec01a041374d5381ed54d6a44"
 metafile = true
 
 [[files]]
-file = "mods/godly-vampirism.pw.toml"
-hash = "5007bbc489ec2eab3e1633a31a3d29f855f8da0d1762313a89c8ec0542948238"
-metafile = true
-
-[[files]]
 file = "mods/gottschcore.pw.toml"
 hash = "c9a735fb2a6da1de11b6502e19411a794b6afcb428d28eaad3b6af3e9c1e771e"
 metafile = true
@@ -1208,21 +1203,6 @@ metafile = true
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
 hash = "e09307f44f904adc3bd322db090f2674f309ff9ce4854d98d067c4651629c760"
-metafile = true
-
-[[files]]
-file = "mods/vampires-need-umbrellas.pw.toml"
-hash = "150f460e800d2d4a3b9a064a69301618358d2c86ef0620d59c190766129c6860"
-metafile = true
-
-[[files]]
-file = "mods/vampirism-become-a-vampire.pw.toml"
-hash = "4e10abf415163f490fe3ca8f353b7564dd97086b8d89c84e3e8edccf2a027799"
-metafile = true
-
-[[files]]
-file = "mods/vampirism-integrations.pw.toml"
-hash = "aa3b5446770af49e5555517eeb925d821b093dd8235ff53d08e94b8b10a91c5f"
 metafile = true
 
 [[files]]
