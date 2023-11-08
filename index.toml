@@ -696,6 +696,11 @@ hash = "a11cf1237b18cf43fb3b9fc624b4e94f72832dab07ccdeb3523c7ba70ee2056d"
 metafile = true
 
 [[files]]
+file = "mods/login-protection.pw.toml"
+hash = "734a405a28d54bba50e809bf781fbcc30514a521e5cd3af03463b17d69ba96fd"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "e6e2a7b9e445d8284a914cf067e3ee57643513f4e0a063c3fe549f432647342d"
 metafile = true
@@ -898,6 +903,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "ea3a680ef8777698e5c14a23ce80e6972baf3f223d56de8ad503dcebbdf0b428"
+metafile = true
+
+[[files]]
+file = "mods/pluto.pw.toml"
+hash = "44309593fb2d9b55216f2db30c6a3082c66190147de41d1032f4bfe40a7c6b7d"
 metafile = true
 
 [[files]]
