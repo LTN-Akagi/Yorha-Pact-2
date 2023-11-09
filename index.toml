@@ -996,6 +996,11 @@ hash = "23ef91d4bd56f555ad9b5aec3b6b254281d425095247bcfc9eb050936fc6958a"
 metafile = true
 
 [[files]]
+file = "mods/rsinfinitybooster.pw.toml"
+hash = "a76c956d56c9d423875d63e1d0aaca00a0da4854edd28f64d96ddf6bf54fafdd"
+metafile = true
+
+[[files]]
 file = "mods/saturn.pw.toml"
 hash = "82bb69add7234aa50636277b38aa25eca2f9e6277253a62af1e6c4b3cbc05481"
 metafile = true
