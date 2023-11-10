@@ -16,6 +16,11 @@ hash = "6049ce25c35da23208c19374bc6870064144df1f7aabac29f0115af03c8ad9e8"
 metafile = true
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "3941ea702dceed8ea0d775f34c1aa7266bb39087748f1afb52052b743ae388c3"
+metafile = true
+
+[[files]]
 file = "mods/akashic-tome.pw.toml"
 hash = "c55d8087b3a790472313b0e366fb016acea13dad23b4dfac869422047e7150d0"
 metafile = true
