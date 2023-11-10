@@ -26,16 +26,6 @@ hash = "c55d8087b3a790472313b0e366fb016acea13dad23b4dfac869422047e7150d0"
 metafile = true
 
 [[files]]
-file = "mods/alexs-delight.pw.toml"
-hash = "dfa0f3d9b6f055a559595d30dae85d14a35550b28c92d92285eea98d83cb7652"
-metafile = true
-
-[[files]]
-file = "mods/alexs-mobs.pw.toml"
-hash = "03da06567af6005bcfd94525e773bb49b448c58b161757f8f5680b857459766c"
-metafile = true
-
-[[files]]
 file = "mods/allthecompressed.pw.toml"
 hash = "7456a67dd9da373b1f6a59d3e81dd74653b4361fc6d82014f43258c19dc203e3"
 metafile = true
