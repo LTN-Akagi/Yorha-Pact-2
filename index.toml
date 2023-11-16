@@ -586,6 +586,11 @@ hash = "621b43ba9d4c9f8cac6294bf687b100be5db761787f732c9fdee949e1a5ee70e"
 metafile = true
 
 [[files]]
+file = "mods/hostile-neural-networks.pw.toml"
+hash = "5f2ba207e0c070c044c7b5c2dc9d31508da3f847cecfe87d0ce7b905fad4d4c4"
+metafile = true
+
+[[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
 hash = "7fcd0ee44b41c3771ec5f74354e8c4b168eb364ec67ca351064783d5d2109c0f"
 metafile = true
