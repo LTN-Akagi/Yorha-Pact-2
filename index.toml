@@ -436,11 +436,6 @@ hash = "8b9102c8ee1dc19abe46b556fa1cb31d752036f1de3abb1dc8be2387fd85e2d4"
 metafile = true
 
 [[files]]
-file = "mods/eureka-ships.pw.toml"
-hash = "0b2d5e0cd7b36c7f11572fe47840b1ae3fa40f2191da60aadf51d578b6c56ec7"
-metafile = true
-
-[[files]]
 file = "mods/expandability.pw.toml"
 hash = "2ecdf3ae76d4ad10da711a93c966f6306c1bfdec39fe9f6c356000e600bf5844"
 metafile = true
@@ -746,8 +741,8 @@ hash = "2b6825041bd30b045cc64bdd7fc28113ea6f22cf5bac4b70e8f26d5d2345d9a4"
 metafile = true
 
 [[files]]
-file = "mods/mcdoom.pw.toml"
-hash = "40fda330c1af418b438794f2c7e65914b7cf9b735c20d5ca0495a04cde653a84"
+file = "mods/mcjtylib.pw.toml"
+hash = "0c4037041d6e546c141984f8294166af45c729f5ff536d811a23d65973d807c0"
 metafile = true
 
 [[files]]
@@ -1001,6 +996,21 @@ hash = "23ef91d4bd56f555ad9b5aec3b6b254281d425095247bcfc9eb050936fc6958a"
 metafile = true
 
 [[files]]
+file = "mods/rftools-base.pw.toml"
+hash = "77c4013f628382524a9894f7545d2a29bc9458c8821d895c3b07e8153f715858"
+metafile = true
+
+[[files]]
+file = "mods/rftools-dimensions.pw.toml"
+hash = "7b8148071f3bbdb2b33d83d6e637236cde214f2630d0b1762233c9a794da1bec"
+metafile = true
+
+[[files]]
+file = "mods/rftools-utility.pw.toml"
+hash = "ed27ab7e969a5d41b5633ed9ee9f81fd42dfb93c1e9f6e332329da9e405c5143"
+metafile = true
+
+[[files]]
 file = "mods/rsinfinitybooster.pw.toml"
 hash = "a76c956d56c9d423875d63e1d0aaca00a0da4854edd28f64d96ddf6bf54fafdd"
 metafile = true
@@ -1063,6 +1073,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "6cf54be04d2676dd775949c2025e0f3a2019c43939ae9ddf56fb8962f5f9ab2c"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "cc7ebfb41c1738b4ecbc1c027826e28e307f3a862d73682797d989448daf29d1"
 metafile = true
 
 [[files]]
@@ -1223,11 +1238,6 @@ metafile = true
 [[files]]
 file = "mods/valhelsia-core.pw.toml"
 hash = "af5288cda5a707bf29d9bedf7c196c7d60cc1d0344c9558a614a63dba91fcd0b"
-metafile = true
-
-[[files]]
-file = "mods/valkyrien-skies.pw.toml"
-hash = "e09307f44f904adc3bd322db090f2674f309ff9ce4854d98d067c4651629c760"
 metafile = true
 
 [[files]]
